@@ -1,6 +1,7 @@
 Week 5 Lab Report
 
 **Syntax**
+
 `find [-H] [-L] [-P] [path...] [expression]`
 
 **find**
@@ -56,6 +57,7 @@ Output: ./empty.txt
 
 
 **grep**
+
 1. 
 `--colour[=WHEN], --color[=WHEN]`
 Displays files that contains the matching strings and surrounds the matching strings in color on the terminal. (WHEN is never, always, or auto.)
@@ -116,6 +118,7 @@ Output: grep (BSD grep, GNU compatible) 2.6.0-FreeBSD
 <img width="527" alt="Screen Shot 2022-10-31 at 10 24 16 AM" src="https://user-images.githubusercontent.com/114449002/199070308-4be2cca7-86ed-4221-b0f3-85c02f6e08b2.png">
 
 **less**
+
 1. 
 `-f or --force`
 Forces non-regular files to be opened and supress warning message when binary file is opened. 
