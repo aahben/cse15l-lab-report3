@@ -1,9 +1,10 @@
 Week 5 Lab Report
 
-Syntax 
+**Syntax**
 `find [-H] [-L] [-P] [path...] [expression]`
 
-find 
+**find**
+
 1. 
 `-user name`
 Prints all file in given location if file belongs to given username 
@@ -30,6 +31,7 @@ technical//911report//chapter-12.txt
 technical//911report//chapter-10.txt
 technical//911report//chapter-11.txt
 ```
+
 <img width="548" alt="Screen Shot 2022-10-31 at 10 27 59 AM" src="https://user-images.githubusercontent.com/114449002/199071421-54d623fc-59e6-4913-89ed-54624a0a3612.png">
 
 2. 
@@ -47,11 +49,13 @@ Find all empty files in a particulary directory
 Prior to utilizing this command, I created a empty file and this command was able to return the file to me. 
 Input: find . -empty
 Output: ./empty.txt
+
 <img width="669" alt="Screen Shot 2022-10-31 at 10 39 53 AM" src="https://user-images.githubusercontent.com/114449002/199073321-f126f1fc-a742-42cd-918e-543f6d66906d.png">
 
 <img width="442" alt="Screen Shot 2022-10-31 at 10 37 55 AM" src="https://user-images.githubusercontent.com/114449002/199072940-df808ec7-123e-4194-a786-5404e2c10672.png">
 
-grep 
+
+**grep**
 1. 
 `--colour[=WHEN], --color[=WHEN]`
 Displays files that contains the matching strings and surrounds the matching strings in color on the terminal. (WHEN is never, always, or auto.)
@@ -66,6 +70,7 @@ technical/biomed/1478-1336-1-4.txt
 technical/biomed/1478-1336-1-2.txt
 technical/biomed/1478-1336-1-3.txt
 ```
+
 <img width="567" alt="Screen Shot 2022-10-31 at 10 12 22 AM" src="https://user-images.githubusercontent.com/114449002/199068031-b539bd0a-4eda-46b1-bc19-e195e86c0054.png">
 
 2. 
@@ -97,6 +102,7 @@ technical/plos
 technical/biomed
 technical/911report
 ```
+
 <img width="514" alt="Screen Shot 2022-10-31 at 10 21 13 AM" src="https://user-images.githubusercontent.com/114449002/199069698-cf1ab3ae-d8ef-4a23-b75b-c087fab2c413.png">
 
 4. 
@@ -106,14 +112,16 @@ This may be helpful in getting the version number of grep.
 
 Input: grep ".txt" find-results.txt --v
 Output: grep (BSD grep, GNU compatible) 2.6.0-FreeBSD
+
 <img width="527" alt="Screen Shot 2022-10-31 at 10 24 16 AM" src="https://user-images.githubusercontent.com/114449002/199070308-4be2cca7-86ed-4221-b0f3-85c02f6e08b2.png">
 
-less
+**less**
 1. 
 `-f or --force`
 Forces non-regular files to be opened and supress warning message when binary file is opened. 
 
 Input:
+
 <img width="441" alt="Screen Shot 2022-10-31 at 9 58 47 AM" src="https://user-images.githubusercontent.com/114449002/199065402-4de1633f-eacb-41f0-8b40-76682653bf3a.png">
 
 Output: 
@@ -127,7 +135,9 @@ https://anc.org/data/oanc/download/
 ~
 (END) - Next: -f
 ```
+
 <img width="402" alt="Screen Shot 2022-10-31 at 9 58 22 AM" src="https://user-images.githubusercontent.com/114449002/199065460-ea30c6df-4af5-4c76-8116-dbe9b77cc257.png">
+
 <img width="404" alt="Screen Shot 2022-10-31 at 9 58 26 AM" src="https://user-images.githubusercontent.com/114449002/199065474-97634df5-5c43-4786-8cb4-556d423586c7.png">
 
 2. 
